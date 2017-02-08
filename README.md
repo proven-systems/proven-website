@@ -4,7 +4,7 @@ This is the website proven.systems.
 
 It is written using [Hugo](https://www.gohugo.io/) using the [Dimension](http://themes.gohugo.io/dimension/) theme based on [HTML5 UP](https://html5up.net/uploads/demos/dimension/)'s theme.
 
-It is built to be hosted using [IPFS](https://ipfs.io).
+It is built to be hosted using [IPFS](https://ipfs.io) using [IPNS](https://github.com/ipfs/examples/tree/master/examples/websites).
 
 ## Development
 To run on a local machine:
