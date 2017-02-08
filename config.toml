@@ -1,0 +1,30 @@
+languageCode = "en-us"
+title = "Dimension"
+baseurl = "http://proven.systems/"
+theme = "dimension"
+
+[params]
+  title = "Proven"
+  description = 'Smart contracts for independently verifying the origin of digital documents'
+  logo = "fa-diamond"
+  copyright = "1AmOXsGnfXdbNg3RMTyPCHkn2aT"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "https://twitter.com/proven_sys"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "https://www.facebook.com/systems.proven"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "https://www.instagram.com/proven_sys"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "http://github.com/proven-systems"
