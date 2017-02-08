@@ -1,10 +1,10 @@
 # proven-website
 
-This is the website proven.systems.
+This is the website [proven.systems](http://proven.systems).  
 
-It is written using [Hugo](https://www.gohugo.io/) using the [Dimension](http://themes.gohugo.io/dimension/) theme based on [HTML5 UP](https://html5up.net/uploads/demos/dimension/)'s theme.
+Uses [Hugo](https://www.gohugo.io/) and the [Dimension](http://themes.gohugo.io/dimension/) theme based on [HTML5 UP](https://html5up.net/uploads/demos/dimension/).
 
-It is built to be hosted using [IPFS](https://ipfs.io) using [IPNS](https://github.com/ipfs/examples/tree/master/examples/websites).
+It is hosted using [IPFS](https://ipfs.io) using [IPNS](https://github.com/ipfs/examples/tree/master/examples/websites).
 
 ## Development
 To run on a local machine:
@@ -15,4 +15,5 @@ To run on a local machine:
 ## Deployment
 * `hugo`
 * `ipfs add -r public` - resulting hash is $SITEHASH
-* On the target domain, change the DNS TXT record for `dnslink` to '/ipns/$SITEHASH'
+* `ipfs name publish $SITEHASH` -- resulting hash is $SITEID
+* Change the DNS TXT record for `dnslink` to '/ipns/$SITEID'
