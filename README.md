@@ -13,7 +13,4 @@ To run on a local machine:
 * http://localhost:1313
 
 ## Deployment
-* `hugo`
-* `ipfs add -r public` - resulting hash is $SITEHASH
-* `ipfs name publish $SITEHASH` -- resulting hash is $SITEID
-* Change the DNS TXT record for `dnslink` to '/ipns/$SITEID'
+`./deploy.sh`

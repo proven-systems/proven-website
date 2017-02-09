@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Dimension"
-baseurl = "http://www.proven.systems/ipns/proven.systems/"
+baseurl = "http://proven.systems/ipns/proven.systems/"
 theme = "dimension"
 canonifyURLs = true
 
