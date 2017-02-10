@@ -28,4 +28,9 @@ canonifyURLs = true
 [[params.social]]
   medium = "github"
   icon = "github"
-  link = "http://github.com/proven-systems"
+  link = "https://github.com/proven-systems"
+
+[[params.social]]
+  medium = "medium"
+  icon = "medium"
+  link = "https://medium.com/proven"
