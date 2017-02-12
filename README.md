@@ -2,9 +2,8 @@
 
 This is the website [proven.systems](http://proven.systems).  
 
-Uses [Hugo](https://www.gohugo.io/) and the [Dimension](http://themes.gohugo.io/dimension/) theme based on [HTML5 UP](https://html5up.net/uploads/demos/dimension/).
+It is developed using [Hugo](https://www.gohugo.io/) and the [Dimension](http://themes.gohugo.io/dimension/) theme based on [HTML5 UP](https://html5up.net/uploads/demos/dimension/).
 
-It is hosted using [IPFS](https://ipfs.io) using [IPNS](https://github.com/ipfs/examples/tree/master/examples/websites).
 
 ## Development
 To run on a local machine:
@@ -13,4 +12,8 @@ To run on a local machine:
 * http://localhost:1313
 
 ## Deployment
+It is hosted using [IPFS](https://ipfs.io) using [IPNS](https://github.com/ipfs/examples/tree/master/examples/websites).
+
+Uses [ipns-publish](https://github.com/whyrusleeping/ipns-pub) with a key generated with [ipfs-key](https://github.com/whyrusleeping/ipfs-key) in your `~/keys` directory.
+
 `./deploy.sh`
