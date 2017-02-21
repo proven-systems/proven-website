@@ -3,7 +3,3 @@ before_script:
  - export GOPATH=$HOME/go
  - go get -u -v github.com/spf13/hugo
 script: $GOPATH/hugo check
-addons:
-  apt:
-    packages:
-      - snapd
