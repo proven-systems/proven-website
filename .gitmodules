@@ -1,4 +1,4 @@
 [submodule "themes/dimension"]
     path = themes/dimension
-    url = git@github.com:sethmacleod/dimension.git
+    url = https://github.com/sethmacleod/dimension.git
 
