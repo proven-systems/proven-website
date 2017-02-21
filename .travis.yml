@@ -1,2 +1,6 @@
 language: go
-script: hugo check
+script: snap install hugo; hugo check
+addons:
+  apt:
+    packages:
+      - snapd
