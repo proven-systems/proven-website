@@ -2,3 +2,7 @@
     path = themes/dimension
     url = https://github.com/sethmacleod/dimension.git
 
+[submodule "public"]
+	path = public
+	url = git@github.com:proven-systems/proven-systems.github.io.git
+	branch = master
