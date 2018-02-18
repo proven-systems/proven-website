@@ -13,8 +13,6 @@ To run on a local machine:
 * http://localhost:1313
 
 ## Deployment
-It is hosted using [IPFS](https://ipfs.io) using [IPNS](https://github.com/ipfs/examples/tree/master/examples/websites).
-
-IPFS v0.4.5 is required because it uses `ipfs name publish -k` with a key generated with [ipfs-key](https://github.com/whyrusleeping/ipfs-key) in your `~/keys` directory.
+It is hosted using [GitHub Pages](https://pages.github.com/).
 
 `./deploy.sh`
